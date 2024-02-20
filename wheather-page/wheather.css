@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+
+}
+
+:root {
+    --body-background-color: #2d3436;
+    --container-background-color: #0B131E;
+    --umbrella-background-color: #353C45;
+}
+
+body {
+    background-color: var(--body-background-color);
+    height: 100vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.body-container {
+    background-color: var(--container-background-color);
+    min-height: 80vh;
+    min-width: 90vw;
+    position: relative;
+
+
+
+}
+
+form{
+    position: relative;
+}
+
+.bi-geo-alt{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 10px;
+    left: -10px;
+}
+
+.text-end{
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.cities{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    gap: 1rem;
+}
+
+label,
+input,
+input::placeholder {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1rem;
+    color: #fff;
+
+}
+
+input {
+    width: 300px;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 1rem;
+    border-bottom: 1px solid white;
+}
+
+
+.btn {
+    background-color: #f44336;
+    color: #fff;
+    border: 1px solid #f44336;
+    padding: .9rem 1.3rem;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+
+.card{
+    position: relative;
+    min-width: 250px !important;
+
+    }
+
+
+
+.bi-x-circle
+{
+    position: absolute;
+    top: -50px;
+    right: 0;
+    cursor: pointer;
+}
+
+li img{
+    width: 25px;
+}

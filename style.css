@@ -1,0 +1,101 @@
+
+.honk-heading-1 {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+}
+
+h3,
+footer {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --body-background-color: #2d3436;
+    --container-background-color: #0B131E;
+    --umbrella-background-color: #353C45;
+}
+
+body {
+    background-color: var(--body-background-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* ---------------------------------- */
+/*              CONTAINER             */
+/* ---------------------------------- */
+
+.container {
+    height: 80vh;
+    width: 90vw;
+    background-color: var(--container-background-color);
+    position: relative;
+
+}
+
+.header{
+    display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+}
+
+.header-img{
+    background-color: var(--umbrella-background-color);
+    border-radius: 10px;
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    
+
+}
+
+.header-img img{
+    width: 100%;
+}
+
+
+
+h3{
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+button{
+    padding: .7rem;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+footer{
+    position: absolute;
+    bottom: 2rem;
+    font-size: 1.rem;
+}
+
