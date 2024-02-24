@@ -14,6 +14,10 @@ At the end of the this project, you will be able to;
 
 - demonstrate your knowledge of algorithmic design principles.
 
+## Expected Outcome
+
+![Project Snapshot](./assets/img/project.gif)
+
    
 ## Problem Statement
 
