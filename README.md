@@ -1,27 +1,33 @@
-# Wheather-App
-
-
+# weather-app
 - <a href="https://karamanburak.github.io/wheather-app/" rel="noFollow">Access the finished project online</a>
 
 ## Description
-Project aims to display current weather data of searched city around the world with fetching Weather Api data.
 
-## Learning Outcomes
+This project is a simple weather application. The project is developed with JavaScript. The project aims to access the instant weather of a searched city or province. At the same time, with the location information, the current weather conditions of the current region can be accessed. It can be used in English, German and Turkish. The `OpenWeather API` was used to develop this project.
 
-At the end of the this project, you will be able to;
+## Project Skeleton
 
-- analyze a problem, create a weather condition app populated with a real weather api.
+```
+Shopping Cart (folder)
+|
+SOLUTION
+├── assets
+│     └── [images]    
+├── weather-page
+│      ├── clock.js
+│      ├── weather.css
+│      ├── weather.html
+│      └── weather.js
+├── app.js
+├── index.html
+├── README.md
+└── style.css
 
-- demonstrate your knowledge of algorithmic design principles.
+```
 
-## Expected Outcome
+## Outcome
 
 ![Project Snapshot](./assets/img/project.gif)
-
-   
-## Problem Statement
-
-- Design a weather condition page following the design and populate data for searched city with using of axios in JS.
 
 
 User story;
