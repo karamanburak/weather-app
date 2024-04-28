@@ -1,5 +1,5 @@
 # weather-app
-- <a href="https://karamanburak.github.io/wheather-app/" rel="noFollow">Access the finished project online</a>
+- <a href="https://karamanburak.github.io/weather-app/" rel="noFollow">Weather App</a>
 
 ## Description
 
